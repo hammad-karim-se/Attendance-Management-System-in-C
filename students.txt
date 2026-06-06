@@ -1,0 +1,35 @@
+11
+5
+Hammad Karim
+1
+5
+Hassan Khan
+2
+5
+Kashan Farooq
+3
+5
+Hamza Bashir
+4
+4
+Huzaifa Khan
+5
+3
+Abdullah Gul
+6
+4
+Zoraiz Haider
+7
+3
+Mamoon Saleem
+8
+3
+Abdul Hafeez
+9
+4
+Haris Khan
+10
+4
+Usman Awan
+11
+2
