@@ -1,34 +1,141 @@
-# Attendance Management System (C Language)
+# 📚 Attendance Management System
 
-A simple console-based Attendance Management System developed in C as a first semester project for the Computer Programming course.
+A console-based **Attendance Management System** built in **C++** that allows users to manage student attendance records, generate reports, and store data permanently using file handling.
 
-## Features
+---
 
-- Mark student attendance
+## 🚀 Features
+
+- Add new students
+- Mark daily attendance
 - View attendance records of all students
-- View individual student details
-- Calculate attendance percentage
-- Check exam eligibility (75% attendance criteria)
-- Save and load attendance data using file handling
+- View individual student attendance details
+- Generate attendance reports
+- Save attendance records to files
+- Load previous records automatically on startup
+- Attendance percentage calculation
+- Low attendance warning (below 75%)
 
-## Technologies Used
+---
 
-- C Programming Language
+## 🛠️ Technologies Used
+
+- C++
+- Object-Oriented Programming (OOP)
+- Structures (`struct`)
 - File Handling
-- Functions
+
+---
+
+## 📂 Project Structure
+
+```text
+Attendance-System/
+│
+├── main.cpp
+├── Attendance.cpp
+├── Attendance.h
+├── Student.h
+├── students.txt
+├── Attendance_Report.txt
+├── Attendance System.exe
+├── Attendance_System.dev
+└── README.md
+```
+
+
+
+---
+
+## 📋 Menu
+
+```text
+=================================
+   Attendance Management System
+=================================
+
+1. Add Student
+2. Mark Attendance
+3. Display Attendance Report
+4. Display Individual Attendance
+5. Exit
+```
+
+---
+
+## 📖 How It Works
+
+### 1️⃣ Add Student
+
+- Enter student name
+- Roll number is assigned automatically
+
+---
+
+### 2️⃣ Mark Attendance
+
+Attendance can be marked using:
+
+```text
+P = Present
+A = Absent
+```
+
+
+---
+
+### 3️⃣ Generate Attendance Report
+
+The system calculates:
+
+- Present Days
+- Absent Days
+- Attendance Percentage
+
+---
+
+## 💾 File Handling
+
+The application automatically stores data in:
+
+### students.txt
+
+Stores:
+
+- Student Names
+- Roll Numbers
+- Present Days
+- Total Classes
+
+### Attendance_Report.txt
+
+Stores the generated attendance report.
+
+This allows data to persist even after closing the application.
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped me practice:
+
+- Classes and Objects
+- Constructors
+- Structures
 - Arrays
-- Conditional Statements
-- Loops
+- File Handling
+- Data Persistence
+- Header and Source File Organization
 
-## How It Works
+---
 
-The program stores attendance records for students and provides a menu-driven interface to:
 
-1. Mark Attendance
-2. View All Attendance
-3. View Individual Student Record
-4. Check Exam Eligibility
-5. Exit Program
+## 👨‍💻 Author
 
-Attendance data is automatically saved in a text file (`attendance.txt`) so records are preserved between runs.
+**Hammad Karim**
 
+Software Engineering Student passionate about learning C++ through hands-on projects.
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
